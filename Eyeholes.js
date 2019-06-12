@@ -1,9 +1,18 @@
- class EyeHoles{
-        EyeHoles = {
-            nombre: null,
-            empaquetado:null,
-            precio:null
-     }
-}
+ cereales = require('./cereales.js');
+ class EyeHoles {
 
-module.exports=EyeHoles;
+        constructor() {
+               this.nombre = "Eyeholes";
+               this.precio = 25;
+
+               
+               
+        }
+        item = function () {
+              this.nombre = nombre;
+              this.precio = precio;
+              this.empaquetado = cereales.empaquetado
+
+       }
+ }
+ module.exports = EyeHoles;
